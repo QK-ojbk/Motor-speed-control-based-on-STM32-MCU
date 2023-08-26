@@ -6,7 +6,7 @@ Project description: The system uses STM32F103C8T6 microcontroller as the hardwa
 3.Complete the connection of each module to realize the control of DC motor speed.
 
 项目描述：系统以STM32F103C8T6微控制器为硬件平台，以KEIL5为软件开发平台，采用TB6612FNG直流电机驱动芯片，利用360度旋转编码器调控PWM，进而控制MG513直流电机转速，并实现PID控制；配合温湿度传感器使用，并在OLED屏幕上显示转速信息和温湿度信息。
-•	编写和调试旋转编码器计次程序、PWM控制直流电机程序和PID程序；
-•	编写和调式OLED屏幕显示和温湿度传感器等辅助程序；
-•	完成各模块的衔接，实现对直流电机转速的调控。
+1.编写和调试旋转编码器计次程序、PWM控制直流电机程序和PID程序；
+2.编写和调式OLED屏幕显示和温湿度传感器等辅助程序；
+3.完成各模块的衔接，实现对直流电机转速的调控。
 
